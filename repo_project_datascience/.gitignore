@@ -5,6 +5,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore virtual environment directories
+.venv/
+env/
+venv/
+
+# Ignore configuration files
+*.env
+.env
+
 # Distribution / packaging
 .Python
 env/
@@ -86,3 +95,5 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+

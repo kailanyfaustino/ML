@@ -1,41 +1,21 @@
 project_datascience
 ==============================
 
-Projeto para a disciplina de aprendizado de maquina
+Projeto para a disciplina de aprendizado de máquina para resolver o problema House Prices do Kaggle
 
-Project Organization
+Organização do Projeto
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          <- O README de nível superior para desenvolvedores que usam este projeto.
     ├── data
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
+    ├── notebooks          <- Jupyter notebooks. Convenção de nomenclatura é um número (para ordenação),
+    │                         as iniciais do criador e uma descrição curta delimitada por `-`, por exemplo,
     │                         `1.0-jqp-initial-data-exploration`.
+    │   ├── main.ipynb     <- Arquivo contendo o projeto desenvolvido  
+    ├── requirements.txt   <- O arquivo de requisitos para reproduzir o ambiente de análise, por exemplo,
+    │                         gerado com `pip freeze > requirements.txt`
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    ├── setup.py           <- Torna o projeto instalável via pip (pip install -e .) para que o src possa ser importado
 
 
 --------
